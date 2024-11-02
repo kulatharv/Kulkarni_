@@ -142,6 +142,7 @@
         .service-box img {
             max-width: 200px;
             margin-bottom: 20px;
+            max-height: auto;
         }
 
         .service-box h4 {
@@ -285,6 +286,7 @@
      .map-container {
             padding: 60px 0;
             text-align: center;
+            max-width: auto;
         }
 /* Custom Media Queries for Responsiveness */
 @media (max-width: 576px) {
@@ -320,7 +322,7 @@
     </header>
 
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg xs">
         <div class="container">
             <a href="#" class="header">Home</a>
             <a href="#services" class="Service>Services</a>
@@ -332,41 +334,41 @@
 
     <!-- Introduction Section -->
     <section class="intro" >
-        <div class="container" >
+        <div class="container" class="col-lg-4 col-md-6 col-sm-12 mb-4" >
             <h2>About Us</h2>
             <p>
                 At Kulkarni Radium Laser, we provide precision cutting solutions using state-of-the-art laser and radium cutting technologies. From vehicle number plates to signboards and custom nameplates, we serve a wide range of industries and individual needs with an emphasis on quality and innovation.
             </p>
         </div>
         <!-- Services Section -->
-    <section id="services" class="services">
+    <section id="services" class="services" >
         <div class="container">
             <h2>Our Services</h2>
-            <div class="row">
-                <div class="col-md-3">
+            <div class="row ">
+                <div class="col-md-3 col-xs-6 ">
                     <div class="service-box">
-                        <img src="laser_cutting_icon.jpg" alt="Laser Cutting">
+                        <img src="laser_cutting_icon.jpg" style="max-width: 100%; height: auto;" alt="Laser Cutting">
                         <h4>Laser Cutting</h4>
                         <p>High-precision laser cutting services for various materials.</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <div class="service-box">
-                        <img src="radium_cutting_icon.jpg" alt="Radium Cutting">
+                        <img src="radium_cutting_icon.jpg"style="max-width: 100%; height: auto;" alt="Radium Cutting">
                         <h4>Radium Cutting</h4>
                         <p>Expert radium cutting for durable and attractive signage.</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <div class="service-box">
-                        <img src="Engraving_icon.png" alt="Engraving">
+                        <img src="Engraving_icon.png"style="max-width: 100%; height: auto;" alt="Engraving">
                         <h4>Engraving</h4>
                         <p>Engraving solutions for doors, nameplates, and custom products.</p>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3 col-xs-6">
                     <div class="service-box">
-                        <img src="custom_design_icon.jpg" alt="Custom Designs">
+                        <img src="custom_design_icon.jpg" style="max-width: 100%; height: auto;"alt="Custom Designs">
                         <h4>Custom Designs</h4>
                         <p>Personalized designs tailored to your unique specifications.</p>
                     </div>
@@ -377,7 +379,7 @@
         <!-- Carousel for Sliding Photos -->
    <!-- Carousel Section -->
 <section id="intro" class="intro">
-    <div class="container">
+    <div class="container col-lg-4 col-md-6 col-sm-12 mb-4">
         <!--<h1>Welcome to Radium Laser</h1>-->
         <!--<p>Your one-stop solution for laser cutting and custom designs.</p>-->
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -456,48 +458,46 @@
 -->
 <!-- Link to Bootstrap Icons in the <head> section -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-
-    <!-- Our Features Section -->
     <section id="features" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4">Our Features</h2>
             <div class="row">
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-sm-6 col-md-4 mb-4">
                     <div class="feature-box p-4 text-center shadow-sm">
                         <i class="bi bi-box-seam feature-icon mb-3"></i>
                         <h4>High Quality Materials</h4>
                         <p>We use premium materials in all our products, ensuring durability, clarity, and impact.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-sm-6 col-md-4 mb-4">
                     <div class="feature-box p-4 text-center shadow-sm">
                         <i class="bi bi-tools feature-icon mb-3"></i>
                         <h4>Advanced Laser Technology</h4>
                         <p>Precision laser cutting and engraving for detailed, flawless results every time.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-sm-6 col-md-4 mb-4">
                     <div class="feature-box p-4 text-center shadow-sm">
                         <i class="bi bi-people-fill feature-icon mb-3"></i>
                         <h4>Experienced Craftsmanship</h4>
                         <p>Our skilled artisans bring years of expertise to every project, ensuring top-notch finish.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-sm-6 col-md-4 mb-4">
                     <div class="feature-box p-4 text-center shadow-sm">
                         <i class="bi bi-brush feature-icon mb-3"></i>
                         <h4>Custom Designs</h4>
                         <p>We offer tailored solutions for your unique needs, turning your ideas into reality.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-sm-6 col-md-4 mb-4">
                     <div class="feature-box p-4 text-center shadow-sm">
                         <i class="bi bi-cash-coin feature-icon mb-3"></i>
                         <h4>Affordable Pricing</h4>
                         <p>Top quality doesn’t have to break the bank. We provide exceptional value for every project.</p>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 mb-4">
+                <div class="col-sm-6 col-md-4 mb-4">
                     <div class="feature-box p-4 text-center shadow-sm">
                         <i class="bi bi-award-fill feature-icon mb-3"></i>
                         <h4>Customer Satisfaction</h4>
@@ -507,6 +507,57 @@
             </div>
         </div>
     </section>
+    
+    <!-- Our Features Section 
+         <section id="features" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Features</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4 col-xs-3">
+                    <div class="feature-box p-4 text-center shadow-sm">
+                        <i class="bi bi-box-seam feature-icon mb-3"></i>
+                        <h4>High Quality Materials</h4>
+                        <p>We use premium materials in all our products, ensuring durability, clarity, and impact.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 col-xs-3">
+                    <div class="feature-box p-4 text-center shadow-sm">
+                        <i class="bi bi-tools feature-icon mb-3"></i>
+                        <h4>Advanced Laser Technology</h4>
+                        <p>Precision laser cutting and engraving for detailed, flawless results every time.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 col-xs-3">
+                    <div class="feature-box p-4 text-center shadow-sm">
+                        <i class="bi bi-people-fill feature-icon mb-3"></i>
+                        <h4>Experienced Craftsmanship</h4>
+                        <p>Our skilled artisans bring years of expertise to every project, ensuring top-notch finish.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 col-xs-3">
+                    <div class="feature-box p-4 text-center shadow-sm">
+                        <i class="bi bi-brush feature-icon mb-3"></i>
+                        <h4>Custom Designs</h4>
+                        <p>We offer tailored solutions for your unique needs, turning your ideas into reality.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 col-xs-3">
+                    <div class="feature-box p-4 text-center shadow-sm">
+                        <i class="bi bi-cash-coin feature-icon mb-3"></i>
+                        <h4>Affordable Pricing</h4>
+                        <p>Top quality doesn’t have to break the bank. We provide exceptional value for every project.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4 col-xs-3">
+                    <div class="feature-box p-4 text-center shadow-sm">
+                        <i class="bi bi-award-fill feature-icon mb-3"></i>
+                        <h4>Customer Satisfaction</h4>
+                        <p>We prioritize client satisfaction and strive to exceed expectations in every project.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
     <!-- Services Section 
     <section id="services" class="services">
         <div class="container">
@@ -601,24 +652,24 @@
         <div class="container">
             <h2>Our Gallery</h2>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-3">
                     <img src="gallery1.jpg" alt="Gallery Image 1">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-3">
                     <img src="gallery2.jpg" alt="Gallery Image 2">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-3">
                     <img src="gallery3.jpg" alt="Gallery Image 3">
                 </div>
 
 
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-3">
                     <img src="gallery4.jpg" alt="Gallery Image 1">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-3">
                     <img src="house_name - Copy.jpg" alt="Gallery Image 2">
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-3">
                     <img src="gallery6 (2).jpg" alt="Gallery Image 3">
                 </div>
             </div>
@@ -629,7 +680,7 @@
      <section class="map-container">
         <div class="container">
             <h2>Find Us Here</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.5323705011324!2d75.38013846861266!3d19.478162485702754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb1308d072e089%3A0x746d6944332cc9f4!2sKulkarni%20Redium%20%26Laser%20Arts!5e0!3m2!1sen!2sin!4v1730480728810!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3895.5323705011324!2d75.38013846861266!3d19.478162485702754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb1308d072e089%3A0x746d6944332cc9f4!2sKulkarni%20Redium%20%26Laser%20Arts!5e0!3m2!1sen!2sin!4v1730480728810!5m2!1sen!2sin" width="600" height="450" style="border:0; max-width: 100%; height: auto;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </section>
     <!-- Footer Section -->
     <footer id="contact">
